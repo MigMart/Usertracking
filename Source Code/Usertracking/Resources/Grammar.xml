@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar version="1.0" xml:lang="en-US" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="MouseCommands" scope="public">
+    <one-of>
+        <item>double click</item>
+        <item>click</item>
+        <item>click down</item>
+        <item>click up</item>
+        <item>left button</item>
+        <item>left click</item>
+        <item>right button</item>
+        <item>right click</item>
+        <item>drag</item>
+        <item>drop</item>
+    </one-of>
+  </rule>
+</grammar>
